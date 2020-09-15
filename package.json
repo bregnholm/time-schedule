@@ -1,8 +1,8 @@
 {
-  "name": "walks",
+  "name": "time-schedule",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bregnholm.github.io/walks",
+  "homepage": "http://bregnholm.github.io/time-schedule",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "holderjs": "^2.9.7",

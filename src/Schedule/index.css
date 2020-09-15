@@ -1,0 +1,82 @@
+header.schedule {
+  background-color: tan;
+}
+
+div.box {
+  height: calc(100vh - 56px - 10vh);
+  text-align: center;
+}
+
+div.box > div {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: auto;
+  bottom: auto;
+  width: 80vw;
+}
+
+div.box h4 {
+  margin-bottom: 6vh;
+}
+
+div.box span {
+  color: #28a745;
+  width: auto;
+  font-weight: bold;
+}
+
+div.registeredTime {
+  border-bottom: 1px dashed gray;
+  display: flex;
+}
+
+div.registeredTime > span:last-child {
+  text-align: right;
+}
+
+div.earnings {
+  display: flex;
+  flex-direction: row;
+}
+div.earnings > div {
+  flex-grow: 1;
+}
+div.earnings > div span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid tan;
+}
+
+div.dayofWalk input {
+  float: right;
+  border:none;
+}
+
+div.goals.open {
+  max-height: calc(100vh - 56px - 10vh);
+  overflow: scroll;
+}
+
+div.goals {
+  margin: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+form {
+  border-bottom: 1px solid tan;
+  display: flex;
+}
+
+div.dayofWalk form input {
+  width: auto;
+  flex: 1;
+}
+
+div.dayofWalk form input[type='submit'] {
+  text-align: center;
+}
